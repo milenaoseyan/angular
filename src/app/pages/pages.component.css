@@ -1,0 +1,19 @@
+.wrapper {
+  position: relative;
+  height: 100vh;
+  overflow: hidden; 
+}
+
+.layout {
+  display: flex;
+  height: calc(100vh - 57px); 
+}
+
+main {
+  position: relative;
+  flex-grow: 1;
+  padding: 1rem;
+  box-shadow: inset 0 0 15px black;
+  margin-left: 250px; 
+  margin-bottom: 60px; 
+}
