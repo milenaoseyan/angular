@@ -61,6 +61,29 @@ export class MenuService {
       parentItem: 7,
       showSubMenu: false,
       subMenuItems: []
+    },
+    // НОВЫЕ ЭЛЕМЕНТЫ ДЛЯ ДОМАШНЕГО ЗАДАНИЯ
+    {
+      idItem: 9,
+      itemName: 'Статистика',
+      itemLink: null,
+      iconTypeId: 1,
+      icon: null,
+      itemOrder: 5,
+      parentItem: null,
+      showSubMenu: false,
+      subMenuItems: []
+    },
+    {
+      idItem: 10,
+      itemName: 'Общая',
+      itemLink: 'statistics/general',
+      iconTypeId: 1,
+      icon: '',
+      itemOrder: 1,
+      parentItem: 9,
+      showSubMenu: false,
+      subMenuItems: []
     }
   ];
 
