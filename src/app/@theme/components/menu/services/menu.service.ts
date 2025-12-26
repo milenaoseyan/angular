@@ -1,3 +1,4 @@
+// src/app/@theme/components/menu/services/menu.service.ts
 import { Injectable } from '@angular/core';
 import { BehaviorSubject } from 'rxjs';
 import { MenuItem } from '../models/menu.model';
@@ -62,7 +63,6 @@ export class MenuService {
       showSubMenu: false,
       subMenuItems: []
     },
-    // НОВЫЕ ЭЛЕМЕНТЫ ДЛЯ ДОМАШНЕГО ЗАДАНИЯ
     {
       idItem: 9,
       itemName: 'Статистика',
